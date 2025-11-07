@@ -18,4 +18,10 @@
   "engines": {
     "node": "22.x"
   }
+  
+  "scripts": {
+  "postinstall": "npx patch-package"
+}
+ 
+
 }
